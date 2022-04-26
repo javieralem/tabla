@@ -1,0 +1,81 @@
+.gasnoble{
+background-color:paleturquoise;
+}
+.transicion{
+  background-color:yellow;
+}
+.Alcalinot{
+  background-color:burlywood;
+}
+.alcalinos{
+  background-color:brown;
+}
+.metales{
+  background-color:coral;
+}
+.metaloides{
+  background-color:fuchsia;
+}
+.nometales{
+  background-color:lime;
+}
+.halagenos{
+  background-color:darksalmon;
+}
+.lantanidos{
+  background-color:darkgreen;
+}
+.actinos{
+  background-color:hotpink;
+}
+td:hover{
+  opacity:0.5;
+  transition:all;
+  visibility:visible;
+  brackground:red;
+}
+td:zoom{
+  transition:width 1s, height 1s, transform 1s;
+}
+td:hover{
+  transform:scale(1.5);
+}
+body{
+  background-color:Background;
+    font-size: 33px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.modal-contenido{
+  background-color:rgba(40,114,51,0.5);
+  color#ffffff;
+  width:300px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px rgba(12,12,12,0.527);
+  margin: 2rem auto;
+  position: relative;
+  border-style: outset;
+  border-radiu: 6px;
+  overflow: hidden;
+  z-index: 1;
+ backdrop-filter:saturate(180%) blur(20px);
+}
+.modal{
+ background-color:rgba(0,0,0,0.6);
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition:all 1s;
+}
+:target{
+  opacity:2;
+  pointer-events:auto;
+  border-radius:0px;
+}
+td{
+  border-style:solid;
+  border-color:black;
+}
